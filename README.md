@@ -2,6 +2,7 @@
 *Electron*/*Vite* based, Desktop intended layer. Allows for live wallpapers/etc. choose desktop icons for the .desktop files found on your desktop, sadly manually.
 
 Early concept used on Ubuntu 24.04. Sits directly above the desktop.
+Tested on gdm/Ubuntu desktop aka gnome.
 
 In the project folder its set to load the video-file named live-test-a.mp4.
 This option will likely later on be set via the context menu.
