@@ -1,0 +1,19 @@
+{
+  "name": "divulgent-desktop",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+  "dev": "vite",
+  "electron": "electron . --no-sandbox",
+  "start": "concurrently -k \"npm:dev\" \"npm:electron\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.2.0",
+    "electron": "^36.5.0",
+    "vite": "^6.3.5"
+  }
+}
